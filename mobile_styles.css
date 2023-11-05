@@ -58,13 +58,13 @@ header #icons{
     text-decoration: none;
 }
 
-#menu_icon:active + nav {
+#menu_icon:hover + nav,
+#icons nav:hover {
     display: block;
     position: absolute;
     top: 45px;
     left: 50%;
 }
-
 
 
 
