@@ -45,6 +45,7 @@ header #icons{
     margin: 8px;
     border-radius: 20px;
     padding: 20px;
+    width: 150px;
     z-index: 1;
     border: 1px dashed  rgb(77, 75, 75);
 }
@@ -63,7 +64,7 @@ header #icons{
     display: block;
     position: absolute;
     top: 45px;
-    left: 75%;
+    left: 70%;
 }
 
 
@@ -171,14 +172,20 @@ img:hover{
 
 a {
     width: 53px;
-    display: block;
+  
     align-self: center;
     font-size: 1.15em;
     color: rgb(95, 93, 93);
     letter-spacing: 2px;
-    text-decoration: none;
-    border-bottom: 1px solid #6a6b6d;
+
   
+  
+}
+
+.info_box a{
+    display: block;
+    border-bottom: 1px solid #6a6b6d;
+    text-decoration: none;
 }
 
 a:hover{
