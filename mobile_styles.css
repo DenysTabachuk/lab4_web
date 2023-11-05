@@ -1,0 +1,171 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Calibri', sans-serif;
+}
+
+
+#container{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: rgba(255,255,255,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+header #logo_icon{
+    height: 80px;
+    width:160px;
+}
+
+header #menu_icon{
+    height: 100px;
+    width:120px;
+}
+
+
+header #icons{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#icons nav {
+    display: none;
+    height: 500px;
+    width: 500px;
+    font-size: 3em;
+    background-color: rgba(255,255,255,255);
+    margin: 8px;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 1;
+    border: 1px dashed  rgb(77, 75, 75);
+}
+
+#icons nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#icons nav ul li a {
+    text-decoration: none;
+}
+
+#menu_icon:active + nav {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(241,197,14,255) 33%, rgba(13,36,75,255) 33%, rgba(13,36,75,255) 100%);
+
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+
+
+
+
+
+
+footer{
+    height: 400px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 3em;
+    text-align: center;
+    background-color: rgba(51,51,51,255);
+    color: rgba(255,255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+img{
+    width: 80%;
+    margin: 25px;
+    transition: transform 0.3s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+#image4{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+.info_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #f5f7fa;
+
+    width: 80%;
+    font-size: 3em;
+    margin: 25px;
+    border-radius: 20px;
+    padding:20px;
+    
+}
+
+.info_box p {
+    font-style: italic;
+    color: #6a6b6d;
+    padding: 0;
+}
+
+.info_box img{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+
+a {
+    font-size: 1.15em;
+    color: rgb(95, 93, 93);
+    letter-spacing: 2px;
+    /* text-decoration: none; */
+    /* border-bottom: 1px solid #6a6b6d; */
+  
+}
+
+a:hover{
+    font-size: 1.2em;
+    color:black;
+}
+
+
+h3{
+    letter-spacing: 1px;
+}

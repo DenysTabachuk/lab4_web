@@ -1,0 +1,192 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Calibri', sans-serif;
+}
+
+
+
+#container{
+    display: grid;
+    grid-template-rows: 56px minmax(900px, auto) 125px;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: rgba(255,255,255,255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header #logo_icon{
+    height: 39px;
+    width:68px;
+}
+
+header #menu_icon{
+    height: 38px;
+    width:32px;
+}
+
+
+header #icons{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#icons nav {
+    display: none;
+    background-color: rgba(255,255,255,255);
+    margin: 8px;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 1;
+    border: 1px dashed  rgb(77, 75, 75);
+}
+
+#icons nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#icons nav ul li a {
+    text-decoration: none;
+}
+
+#menu_icon:hover + nav,
+#icons nav:hover {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#block1{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgba(241,197,14,255);
+}
+
+
+
+
+
+
+footer{
+    background-color: rgba(51,51,51,255);
+    color: rgba(255,255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+img{
+    width: 220px;
+    height: 290px;
+    margin: 8px;
+    margin-bottom: 0;
+    transition: transform 0.3s;
+}
+
+#image1, #image3{
+    position: relative;
+    top:45px;
+}
+
+
+#image2, #image4{
+    position: relative;
+    top:90px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+#block2{
+    background-color: rgba(13,36,75,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.info_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 180px;
+    height: 280px;
+    background-color: #f5f7fa;
+    margin: 8px;
+    
+    border-radius: 20px;
+    padding:20px;
+}
+
+.info_box p {
+    font-style: italic;
+    color: #6a6b6d;
+    padding: 0;
+}
+
+.info_box img{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+
+a {
+    width: 53px;
+    display: block;
+    align-self: center;
+    font-size: 1.15em;
+    color: rgb(95, 93, 93);
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid #6a6b6d;
+  
+}
+
+a:hover{
+    font-size: 1.2em;
+    color:black;
+}
+
+
+h3{
+    letter-spacing: 1px;
+}
